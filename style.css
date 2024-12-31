@@ -383,6 +383,26 @@ body {
   }
 
   @media (max-width: 480px) {
+     .hero-section {
+        flex-direction: column; 
+        text-align: left; 
+        padding: 20px; 
+        height: auto; 
+    }
+    
+    .hero-text {
+        max-width: 100%; 
+        padding-right: 0; 
+    }
+    
+    .hero-text h1 {
+        font-size: 28px; 
+    }
+    
+    .hero-text p {
+        font-size: 16px; 
+    }
+      
     .nav-links {
       display: flex;
     }
@@ -399,6 +419,7 @@ body {
     .hero-image {
         width: 500px;
         height: 500px;
+        margin-top: 40px;
     }
 
     .hero-text h1 {
