@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="project.css">
+</head>
+<body>
+  <nav class="navbar">
+    <a class="navbar-brand" href="#">Moh H Fakhrie</a>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About me</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li>
+        <img src="git.png" width="100" height="50" alt="">
+      </li>
+    </ul>
+  </nav>
+  <div class="hero-section" id="home">
+    <div class="hero-text">
+      <h1>Hello World, I'm <br><span>Moh H Fakhrie</span></h1>
+      <p>saya Moh H Fakhrie saya seorang mahasiswa universitas kuningan, saya ingin menjadi seorang game developer</p>
+    </div>
+    <div class="hero-image">
+    </div>
+  </div>
+  <div class="about-section" id="about">
+    <h2>About Me</h2>
+    <div class="container">
+      <div class="section">
+          <img src="https://img.icons8.com/ios-filled/50/000000/briefcase.png" alt="Pendidikan">
+          <h2>Pendidikan</h2>
+          <div class="box"><p class="about-description">saat ini saya sedang menempuh perguruan S1 di universitas kuningan teknik informatika, saya ingin menjadi front end developer, 3D designer dan game developer. Sekolah sma saya yaitu sman 1 ciawigebang lalu sekolah smp saya yaitu di mts amanah geresik dan sekolah dasar nya yaitu di sdn 3 geresik.</p></div>
+      </div>
+      <div class="section">
+          <img src="https://img.icons8.com/ios-filled/50/000000/user.png" alt="Keterampilan">
+          <h2>Keterampilan</h2>
+          <div class="box"><p class="about-description">saya saat ini sedang belajar html dan css. saya juga sedang mempelajari 3D desain menggunakan aplikasi blender karena saya juga ingin menjadi game developer, dan saya juga tertarik mempelajari bahasa-bahasa pemrograman lainnya</p></div>
+      </div>
+      <div class="section">
+          <img src="https://img.icons8.com/ios-filled/50/000000/combo-chart.png" alt="Tujuan Karir">
+          <h2>Tujuan Karir</h2>
+          <div class="box"><p class="about-description">sekarang saya seorang mahasiswa aktif di universitas kuningan program studi S1 prodi Teknik Informatika, saya sangat tertarik dengan game developer dan pemrograman web, tujuan karir saya ingin bekerja di perusahaan game developer atau menjadi developer indie dan menjadi front end developer.</p></div>
+       </div>
+      </div>
+    </div>
+  </div>
+  <section class="projects-section" id="projects">
+    <h2>Projects</h2>
+    <div class="project-card">
+      <div class="project-image">
+        <img src="rooms.png" alt="Project Example">
+    </div>
+        <div class="project-info">
+            <h3>Membuat Objek 3D</h3>
+            <p>Project ini membuat objek 3D menggunakan website rooms.xyz, saya membuat project ini untuk referensi nantinya yang akan di desain lagi di aplikasi blender</p>
+        </div>
+    </div>
+    <div class="project-card">
+      <div class="project-image">
+        <img src="blender1.png" alt="Project Example">
+    </div>
+        <div class="project-info">
+            <h3>Blender</h3>
+            <p>membuat desain 3D kursi dan meja menggunakan aplikasi blender</p>
+        </div>
+    </div>
+    <div class="project-card">
+      <div class="project-image">
+        <img src="hotel.png" alt="Project Example">
+    </div>
+        <div class="project-info">
+            <h3>Web hotel</h3>
+            <p>membuat website hotel menggunakan html dan css</p>
+        </div>
+    </div>
+    </div>
+</section>
+<section class="contact-me" id="contact">
+        <h1>Contact Me</h1>
+        <div class="underline"></div>
+        <form class="contact-form">
+            <label for="name">Name*</label>
+            <input type="text" id="name" name="name" placeholder="Your Name" class="input-field">
+            
+            <label for="email">Email*</label>
+            <input type="email" id="email" name="email" placeholder="Your Email" class="input-field">
+
+            <label for="message">Message*</label>
+            <textarea id="message" name="message" rows="5" placeholder="Your Message"></textarea>
+
+            <button type="submit" class="send-btn">Send</button>
+        </form>
+        <div class="social-icons">
+            <a class="icon instagram"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><circle cx="17" cy="7" r="1.5" fill="currentColor" fill-opacity="0"><animate fill="freeze" attributeName="fill-opacity" begin="1.3s" dur="0.15s" values="0;1"/></circle><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path stroke-dasharray="72" stroke-dashoffset="72" d="M16 3c2.76 0 5 2.24 5 5v8c0 2.76 -2.24 5 -5 5h-8c-2.76 0 -5 -2.24 -5 -5v-8c0 -2.76 2.24 -5 5 -5h4Z"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.6s" values="72;0"/></path><path stroke-dasharray="28" stroke-dashoffset="28" d="M12 8c2.21 0 4 1.79 4 4c0 2.21 -1.79 4 -4 4c-2.21 0 -4 -1.79 -4 -4c0 -2.21 1.79 -4 4 -4"><animate fill="freeze" attributeName="stroke-dashoffset" begin="0.7s" dur="0.6s" values="28;0"/></path></g></svg></a>
+            <a class="icon telegram"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path stroke-dasharray="20" stroke-dashoffset="20" d="M21 5l-2.5 15M21 5l-12 8.5"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.4s" values="20;0"/></path><path stroke-dasharray="24" stroke-dashoffset="24" d="M21 5l-19 7.5"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.4s" values="24;0"/></path><path stroke-dasharray="14" stroke-dashoffset="14" d="M18.5 20l-9.5 -6.5"><animate fill="freeze" attributeName="stroke-dashoffset" begin="0.4s" dur="0.3s" values="14;0"/></path><path stroke-dasharray="10" stroke-dashoffset="10" d="M2 12.5l7 1"><animate fill="freeze" attributeName="stroke-dashoffset" begin="0.4s" dur="0.3s" values="10;0"/></path><path stroke-dasharray="8" stroke-dashoffset="8" d="M12 16l-3 3M9 13.5l0 5.5"><animate fill="freeze" attributeName="stroke-dashoffset" begin="0.7s" dur="0.3s" values="8;0"/></path></g></svg></a>
+            <a class="icon facebook"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"><path stroke-dasharray="24" stroke-dashoffset="24" d="M17 4l-2 0c-2.5 0 -4 1.5 -4 4v12"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.4s" values="24;0"/></path><path stroke-dasharray="8" stroke-dashoffset="8" d="M8 12h7"><animate fill="freeze" attributeName="stroke-dashoffset" begin="0.5s" dur="0.2s" values="8;0"/></path></g></svg></a>
+        </div>
+    </section>
+    <footer>
+        <p class="credit">©Moh H Fakhrie2024</p>
+    </footer>
+</body>
+</html>
